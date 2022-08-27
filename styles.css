@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2015/03/11/15/24/nebula-668783_960_720.jpg");
+  color: white;
+}
+#title {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: oblique;
+  font-size: 3rem;
+}
+#description {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 30px;
+}
+h1,
+p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+form {
+  width: 60vw;
+  max-width: 700px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+  background-color: rgba(27, 27, 50, 0.8);
+  padding: 2em 3em;
+  line-height: 1.4;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+}
+
+fieldset {
+  border: none;
+  padding: 0.5rem 0;
+}
+
+label {
+  display: block;
+  margin-top: 0.5rem;
+}
+
+input,
+textarea,
+select {
+  margin: 15px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+  border-radius: 8px;
+  background-color: white;
+  border: 1 px solid white;
+}
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type="checkbox"] {
+  display: inline-block;
+}
+select[name="feature"] {
+  height: 2.5em;
+}
+
+select[name="describe"] {
+  height: 2.5em;
+}
+#submit {
+  min-height: 2em;
+  background-color: rgb(5, 61, 5);
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border: 1px solid rgb(5, 61, 5);
+}
+input[type="number"] {
+  min-height: 2em;
+}
+
+::placeholder {
+  color: rgb(88, 85, 85);
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+select option {
+  font-size: 15px;
+}
